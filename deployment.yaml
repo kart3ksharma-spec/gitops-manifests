@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: devops-app
-        image: devops-app:1.0.0
+        image: ghcr.io/kart3ksharma-spec/devops-app:e4e8ae3
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
